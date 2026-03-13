@@ -1,0 +1,86 @@
+{
+  "total_videos": 525,
+  "professional_videos": 128,
+  "peer_videos": 397,
+  "professional_percentage": 24.4,
+  "professional_channels_identified": [
+    "Therapy in a Nutshell",
+    "Dr. Tracey Marks",
+    "Dr Julie",
+    "The Grateful Therapist",
+    "Andrew Huberman",
+    "HealthyGamerGG",
+    "Dr. Ramani Durvasula",
+    "MedCircle",
+    "Psych Hub",
+    "Doc Snipes"
+  ],
+  "engagement_comparison": {
+    "professional_avg_views": 1214931,
+    "peer_avg_views": 1214917,
+    "professional_engagement_rate": 4.4,
+    "peer_engagement_rate": 3.32
+  },
+  "by_search_term": {
+    "depression help": {
+      "total": 25,
+      "professional": 14,
+      "professional_pct": 56.0
+    },
+    "anxiety relief": {
+      "total": 50,
+      "professional": 5,
+      "professional_pct": 10.0
+    },
+    "feeling depressed": {
+      "total": 50,
+      "professional": 17,
+      "professional_pct": 34.0
+    },
+    "mental health": {
+      "total": 50,
+      "professional": 7,
+      "professional_pct": 14.0
+    },
+    "therapy for teens": {
+      "total": 50,
+      "professional": 15,
+      "professional_pct": 30.0
+    },
+    "how to be happy": {
+      "total": 25,
+      "professional": 4,
+      "professional_pct": 16.0
+    },
+    "coping with anxiety": {
+      "total": 50,
+      "professional": 10,
+      "professional_pct": 20.0
+    },
+    "teen mental health": {
+      "total": 25,
+      "professional": 2,
+      "professional_pct": 8.0
+    },
+    "depression support": {
+      "total": 50,
+      "professional": 18,
+      "professional_pct": 36.0
+    },
+    "anxiety support": {
+      "total": 50,
+      "professional": 16,
+      "professional_pct": 32.0
+    },
+    "mental wellness": {
+      "total": 50,
+      "professional": 10,
+      "professional_pct": 20.0
+    },
+    "self care mental health": {
+      "total": 50,
+      "professional": 10,
+      "professional_pct": 20.0
+    }
+  }
+}

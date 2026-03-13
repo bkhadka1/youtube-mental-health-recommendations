@@ -1,0 +1,28 @@
+{
+  "established_ecosystem": [
+    "TEDx Talks",
+    "Psych2Go",
+    "Therapy in a Nutshell",
+    "Dr. Tracey Marks",
+    "Dr Julie",
+    "Mel Robbins",
+    "HealthyGamerGG",
+    "Andrew Huberman"
+  ],
+  "criteria": {
+    "min_videos": 10,
+    "min_search_diversity": 5
+  },
+  "total_channels": 8,
+  "professional_channels_included": [
+    "Therapy in a Nutshell",
+    "Dr. Tracey Marks",
+    "Dr Julie",
+    "Andrew Huberman",
+    "HealthyGamerGG"
+  ],
+  "stats": {
+    "total_videos_from_established": 186,
+    "percentage_of_dataset": 35.4
+  }
+}
