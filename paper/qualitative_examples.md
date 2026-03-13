@@ -251,9 +251,9 @@ Based on these qualitative findings, the Discussion should address:
 
 ---
 
-## SUGGESTED PAPER QUOTES
+## SUGGESTED PAPER FINDINGS
 
-Use these data points in your Discussion:
+
 
 > "Analysis of 90 videos from Journey 1 revealed that 22.2% contained potentially harmful content, while 90.0% provided no mental health resources—despite the journey beginning with an explicit help-seeking query ('depression help')."
 
