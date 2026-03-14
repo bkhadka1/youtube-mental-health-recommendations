@@ -1,7 +1,7 @@
 # API Dataset Analysis Summary
 
 **Date**: January 25, 2026
-**Total Videos**: 600
+**Total Videos**: 525
 **Search Terms**: 12
 **Collection Method**: YouTube Data API v3
 
@@ -10,15 +10,15 @@
 ## KEY STATISTICS
 
 **Total Engagement**:
-- Total Views: [Calculate from your data]
+- Total Views: 637,833,321
 - Total Likes: 23,429,072
 - Total Comments: 761,439
 - Average Engagement Rate: 3.58%
 
 **Content Distribution**:
-- Unique Channels: [From your data]
-- Videos per search term: ~50 each
-- Date range: [From your data]
+- Unique Channels: 199
+- Videos per search term: 25-50 each
+- Date range: January 25, 2026
 
 ---
 
@@ -35,7 +35,7 @@
 9. HealthyGamerGG (10 videos)
 10. Andrew Huberman (10 videos)
 
-**Observation**: These channels appeared repeatedly across multiple search terms, 
+**Observation**: These channels appeared repeatedly across multiple search terms,
 suggesting YouTube has identified them as "safe" mental health content ecosystem.
 
 ---
@@ -44,30 +44,25 @@ suggesting YouTube has identified them as "safe" mental health content ecosystem
 
 ### Finding 1: Established Ecosystem is Real
 
-The same 10-15 channels dominate across all search terms, confirming the existence 
+The same 10-15 channels dominate across all search terms, confirming the existence
 of an algorithmic "whitelist" or established ecosystem.
 
 **Journey Finding**: Journeys 2-4 looped within these channels
-**API Data**: These channels represent XX% of all collected videos
+**API Data**: Top 8 established channels represent 36.4% of all collected videos
 
-### Finding 2: [Add more after running scripts above]
+### Finding 2: Professional Content Suppressed Despite Higher Engagement
 
-[Fill in based on your analysis results]
+Professional content comprises 24.4% of available videos but appears at <10% in typical user journeys. Professional content achieves 4.40% engagement rate vs 3.32% for peer content — a 32.5% advantage — yet is algorithmically deprioritized.
 
----
+### Finding 3: Teen Content Systematically Disadvantaged
 
-## NEXT STEPS
-
-1. Manual coding of 500+ videos from this dataset
-2. Build classification model trained on coded data
-3. Apply model to full dataset
-4. Network analysis of recommendation patterns
-5. Validate journey findings at scale
+Teen-specific searches yield the lowest professional content availability (8%), lowest engagement rates (1.78%), and lowest average views (198,526 for "therapy for teens") of any category tested.
 
 ---
 
 ## FILES GENERATED
 
-- `established_ecosystem.json` - List of established channels
-- Preliminary content type classifications
+- `established_ecosystem.json` - List of established channels with criteria
+- `professional_vs_peer_analysis.json` - Professional vs peer content breakdown
 - Engagement statistics by search term
+- Figures: established_ecosystem.png, professional_vs_peer.png, search_term_analysis.png
