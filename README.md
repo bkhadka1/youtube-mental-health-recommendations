@@ -31,12 +31,15 @@ youtube-mental-health-recommendations/
 ├── .gitignore
 ├── requirements.txt
 ├── code/
-│   ├── collect_youtube_data.py          # YouTube API data collection pipeline
-│   ├── identify_ecosystem.py            # Established channel ecosystem identification
-│   ├── analyze_by_search_term.py        # Search term comparison analysis
-│   ├── analyze_professional_vs_peer.py  # Professional vs peer content analysis
-│   ├── classify_by_title.py             # Keyword-based content classification
-│   ├── explore_data.py                  # Exploratory data analysis
+│   ├── collection/
+│   │   ├── collect_youtube_data.py          # YouTube API data collection pipeline
+│   │   └── test_youtube_api.py              # API connection test
+│   ├── analysis/
+│   │   ├── identify_ecosystem.py            # Established channel ecosystem identification
+│   │   ├── analyze_by_search_term.py        # Search term comparison analysis
+│   │   ├── analyze_professional_vs_peer.py  # Professional vs peer content analysis
+│   │   ├── classify_by_title.py             # Keyword-based content classification
+│   │   └── explore_data.py                  # Exploratory data analysis
 │   └── paper/
 │       ├── 01_journey_trajectory_analysis.py  # Journey progression figures
 │       ├── 02_content_creator_analysis.py     # Creator pattern analysis
@@ -48,10 +51,24 @@ youtube-mental-health-recommendations/
 │       └── professional_vs_peer_analysis.json
 ├── figures/
 │   ├── established_ecosystem.png
+│   ├── fig1_harmful_trajectories.png
+│   ├── fig2_dual_axis_framework.png
+│   ├── fig3_content_distribution.png
+│   ├── fig4_journey1_deepdive.png
+│   ├── fig5_creator_evolution.png
+│   ├── fig6_sentiment_resource_matrix.png
+│   ├── fig7_target_audience.png
 │   ├── professional_vs_peer.png
 │   └── search_term_analysis.png
+├── paper/
+│   ├── drafts/
+│   │   └── bikash_khadka_research_draft.pdf
+│   ├── paper_statistics.md
+│   ├── qualitative_examples.md
+│   └── table1_journey_summary.csv
 └── docs/
     ├── research_proposal_outline.md
+    ├── comprehensive_journey_analysis.md
     ├── journey_summaries.md
     └── api_data_summary.md
 ```
