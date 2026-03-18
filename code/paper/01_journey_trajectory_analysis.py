@@ -46,21 +46,21 @@ print(f"📄 Paper directory: {PAPER_DIR}")
 df = pd.read_csv(DATA_PATH)
 print(f"\n✅ Loaded {len(df)} videos across {df['journey_number'].nunique()} journeys")
 
-# Journey metadata
+# Journey metadata - CORRECTED TO MATCH ACTUAL STUDY
 journey_info = {
-    1: {'query': 'depression help', 'framing': 'positive', 'type': 'help-seeking'},
-    2: {'query': 'i hate my life', 'framing': 'negative', 'type': 'distress'},
-    3: {'query': 'anxiety coping strategies', 'framing': 'positive', 'type': 'skill-seeking'},
-    4: {'query': 'why am i depressed', 'framing': 'neutral', 'type': 'understanding'},
-    5: {'query': 'random start', 'framing': 'neutral', 'type': 'random'},
-    6: {'query': 'teen mental health', 'framing': 'neutral', 'type': 'teen-specific'}
+    1: {'query': 'mental health', 'framing': 'neutral', 'type': 'general-clinical'},
+    2: {'query': 'feeling depressed', 'framing': 'negative', 'type': 'emotional-distress'},
+    3: {'query': 'therapy for teens', 'framing': 'neutral', 'type': 'help-seeking-teen'},
+    4: {'query': 'anxiety relief', 'framing': 'positive', 'type': 'solution-focused'},
+    5: {'query': 'teen depression', 'framing': 'neutral', 'type': 'teen-specific-clinical'},
+    6: {'query': 'mental wellness', 'framing': 'positive', 'type': 'wellness-proactive'}
 }
 
 # Color palette
 journey_colors = {
     1: '#e74c3c',  # Red - most concerning
     2: '#9b59b6',  # Purple
-    3: '#3498db',  # Blue - most helpful
+    3: '#3498db',  # Blue
     4: '#2ecc71',  # Green
     5: '#f39c12',  # Orange
     6: '#1abc9c'   # Teal
@@ -124,7 +124,7 @@ ax.grid(True, alpha=0.3)
 ax.set_ylim(-5, 50)
 
 # Add annotation for Journey 1
-ax.annotate('Journey 1: "depression help"\nShows highest harmful content',
+ax.annotate('Journey 1: "mental health"\nShows highest harmful content',
            xy=(40, 30), xytext=(60, 40),
            arrowprops=dict(arrowstyle='->', color='red', lw=2),
            fontsize=11, color='red', fontweight='bold',
@@ -279,7 +279,7 @@ bars4 = ax.bar(x_pos + 1.5*width, peer_content_per_bin.values, width,
 
 ax.set_xlabel('Video Position Range in Journey', fontsize=12, fontweight='bold')
 ax.set_ylabel('Percentage (%)', fontsize=12, fontweight='bold')
-ax.set_title('Journey 1 ("depression help") Escalation: 90-Video Deep Dive', 
+ax.set_title('Journey 1 ("mental health") Escalation: 90-Video Deep Dive', 
             fontsize=16, fontweight='bold', pad=20)
 ax.set_xticks(x_pos)
 ax.set_xticklabels(harmful_per_bin.index, rotation=45, ha='right')

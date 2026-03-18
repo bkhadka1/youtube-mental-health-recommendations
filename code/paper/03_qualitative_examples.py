@@ -59,7 +59,7 @@ for idx, row in harmful_peer.iterrows():
     output_text += f"""
 **Example {idx - harmful_peer.index[0] + 1}:**
 - **Video ID:** {row['video_id']}
-- **Position in Journey:** Video #{int(row['position_in_journey'])} in Journey 1 ("depression help")
+- **Position in Journey:** Video #{int(row['position_in_journey'])} in Journey 1 ("mental health")
 - **Content Type:** {row['content_type']}
 - **Sentiment:** {row['sentiment']}
 - **Target Audience:** {row['target_audience']}
@@ -74,7 +74,7 @@ for idx, row in harmful_peer.iterrows():
 output_text += """
 ### Category 2: PROFESSIONAL CONTENT - What Good Looks Like
 
-These videos from Journey 3 ("anxiety coping strategies") demonstrate what teens SHOULD be seeing.
+These videos from Journey 3 ("therapy for teens") demonstrate what teens SHOULD be seeing.
 
 """
 
@@ -87,7 +87,7 @@ for idx, row in professional_good.iterrows():
     output_text += f"""
 **Positive Example {idx - professional_good.index[0] + 1}:**
 - **Video ID:** {row['video_id']}
-- **Position in Journey:** Video #{int(row['position_in_journey'])} in Journey 3 ("anxiety coping strategies")
+- **Position in Journey:** Video #{int(row['position_in_journey'])} in Journey 3 ("therapy for teens")
 - **Creator Type:** {row['creator_type']}
 - **Sentiment:** {row['sentiment']}
 - **Resources Provided:** {row['resource_quality']}
@@ -99,9 +99,9 @@ for idx, row in professional_good.iterrows():
 """
 
 output_text += """
-### Category 3: THE PARADOX - Why "Depression Help" Gets Harmful Content
+### Category 3: THE PARADOX - Why "Mental Health" Gets Harmful Content
 
-Journey 1 started with "depression help" but descended into peer confessional content.
+Journey 1 started with "mental health" but descended into peer confessional content.
 
 """
 
@@ -134,7 +134,7 @@ output_text += f"""
 output_text += """
 ### Category 4: TEEN-SPECIFIC CONTENT - Journey 6 Findings
 
-Journey 6 ("teen mental health") reveals how age-specific queries fare.
+Journey 6 ("mental wellness") reveals how age-specific queries fare.
 
 """
 
@@ -202,8 +202,8 @@ output_text += """
 
 ## COMPARISON TABLE FOR DISCUSSION
 
-| Metric | Journey 1 ("depression help") | Journey 3 ("anxiety coping") | Difference |
-|--------|-------------------------------|------------------------------|------------|
+| Metric | Journey 1 ("mental health") | Journey 3 ("therapy for teens") | Difference |
+|--------|----------------------------|----------------------------------|------------|
 """
 
 j1 = df[df['journey_number'] == 1]
@@ -230,7 +230,7 @@ output_text += f"""| Harmful Content (%) | {j1_harmful:.1f} | {j3_harmful:.1f} |
 
 Based on these qualitative findings, the Discussion should address:
 
-1. **The Help-Seeking Paradox:** Why "depression help" surfaces harmful peer content while "anxiety coping" surfaces professional resources
+1. **The Help-Seeking Paradox:** Why "mental health" surfaces harmful peer content while "therapy for teens" surfaces professional resources (though parent-focused)
 
 2. **Resource Desert:** The alarming absence of crisis resources even in videos addressing suicidal ideation
 
@@ -251,9 +251,9 @@ Based on these qualitative findings, the Discussion should address:
 
 Use these data points in your Discussion:
 
-> "Analysis of 90 videos from Journey 1 revealed that {j1_harmful:.1f}% contained potentially harmful content, while {j1_no_resources:.1f}% provided no mental health resources—despite the journey beginning with an explicit help-seeking query ('depression help')."
+> "Analysis of 90 videos from Journey 1 revealed that {j1_harmful:.1f}% contained potentially harmful content, while {j1_no_resources:.1f}% provided no mental health resources—despite the journey beginning with an explicit help-seeking query ('mental health')."
 
-> "In stark contrast, Journey 3 ('anxiety coping strategies') yielded {j3_prof:.1f}% professional content with zero harmful videos, demonstrating that the algorithmic pathway depends critically on query framing rather than topic alone."
+> "In stark contrast, Journey 3 ('therapy for teens') yielded {j3_prof:.1f}% professional content with zero harmful videos, demonstrating that the algorithmic pathway depends critically on query framing rather than topic alone."
 
 > "The resource gap is particularly concerning: among videos addressing depression, suicidal ideation, and self-harm, {j1_no_resources:.1f}% offered no crisis hotlines, professional referrals, or guidance—leaving vulnerable viewers in a 'resource desert.'"
 

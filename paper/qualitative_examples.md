@@ -11,7 +11,7 @@ These videos normalize mental health struggles without providing resources or pr
 
 **Example 1:**
 - **Video ID:** TkVPgMoVPkw
-- **Position in Journey:** Video #3 in Journey 1 ("depression help")
+- **Position in Journey:** Video #3 in Journey 1 ("mental health")
 - **Content Type:** peer_support
 - **Sentiment:** negative
 - **Target Audience:** general_adult
@@ -24,7 +24,7 @@ These videos normalize mental health struggles without providing resources or pr
 
 **Example 2:**
 - **Video ID:** tmRHlhF8N4E
-- **Position in Journey:** Video #4 in Journey 1 ("depression help")
+- **Position in Journey:** Video #4 in Journey 1 ("mental health")
 - **Content Type:** harmful
 - **Sentiment:** negative
 - **Target Audience:** youth_teen
@@ -37,7 +37,7 @@ These videos normalize mental health struggles without providing resources or pr
 
 **Example 3:**
 - **Video ID:** RfxU4GE4vWM
-- **Position in Journey:** Video #5 in Journey 1 ("depression help")
+- **Position in Journey:** Video #5 in Journey 1 ("mental health")
 - **Content Type:** peer_support
 - **Sentiment:** negative
 - **Target Audience:** general_adult
@@ -50,7 +50,7 @@ These videos normalize mental health struggles without providing resources or pr
 
 **Example 4:**
 - **Video ID:** VTFL3RjJC5M
-- **Position in Journey:** Video #6 in Journey 1 ("depression help")
+- **Position in Journey:** Video #6 in Journey 1 ("mental health")
 - **Content Type:** harmful
 - **Sentiment:** negative
 - **Target Audience:** youth_teen
@@ -63,7 +63,7 @@ These videos normalize mental health struggles without providing resources or pr
 
 **Example 17:**
 - **Video ID:** I4b4sSU0ujQ
-- **Position in Journey:** Video #19 in Journey 1 ("depression help")
+- **Position in Journey:** Video #19 in Journey 1 ("mental health")
 - **Content Type:** harmful
 - **Sentiment:** negative
 - **Target Audience:** youth_teen
@@ -76,12 +76,12 @@ These videos normalize mental health struggles without providing resources or pr
 
 ### Category 2: PROFESSIONAL CONTENT - What Good Looks Like
 
-These videos from Journey 3 ("anxiety coping strategies") demonstrate what teens SHOULD be seeing.
+These videos from Journey 3 ("therapy for teens") demonstrate what teens SHOULD be seeing.
 
 
 **Positive Example 1:**
 - **Video ID:** Wr7XGP8Ec9A
-- **Position in Journey:** Video #1 in Journey 3 ("anxiety coping strategies")
+- **Position in Journey:** Video #1 in Journey 3 ("therapy for teens")
 - **Creator Type:** licensed_therapist
 - **Sentiment:** neutral
 - **Resources Provided:** provides_help
@@ -93,7 +93,7 @@ These videos from Journey 3 ("anxiety coping strategies") demonstrate what teens
 
 **Positive Example 3:**
 - **Video ID:** 5gmlXlQc61c
-- **Position in Journey:** Video #3 in Journey 3 ("anxiety coping strategies")
+- **Position in Journey:** Video #3 in Journey 3 ("therapy for teens")
 - **Creator Type:** licensed_therapist
 - **Sentiment:** neutral
 - **Resources Provided:** provides_help
@@ -105,7 +105,7 @@ These videos from Journey 3 ("anxiety coping strategies") demonstrate what teens
 
 **Positive Example 4:**
 - **Video ID:** FSTAo-vmpXc
-- **Position in Journey:** Video #4 in Journey 3 ("anxiety coping strategies")
+- **Position in Journey:** Video #4 in Journey 3 ("therapy for teens")
 - **Creator Type:** licensed_therapist
 - **Sentiment:** neutral
 - **Resources Provided:** provides_help
@@ -115,9 +115,9 @@ These videos from Journey 3 ("anxiety coping strategies") demonstrate what teens
 
 ---
 
-### Category 3: THE PARADOX - Why "Depression Help" Gets Harmful Content
+### Category 3: THE PARADOX - Why "Mental Health" Gets Harmful Content
 
-Journey 1 started with "depression help" but descended into peer confessional content.
+Journey 1 started with "mental health" but descended into peer confessional content.
 
 
 **Journey 1 Progression Analysis:**
@@ -141,7 +141,7 @@ Journey 1 started with "depression help" but descended into peer confessional co
 
 ### Category 4: TEEN-SPECIFIC CONTENT - Journey 6 Findings
 
-Journey 6 ("teen mental health") reveals how age-specific queries fare.
+Journey 6 ("mental wellness") reveals how age-specific queries fare.
 
 
 **Journey 6 Overall:**
@@ -220,8 +220,8 @@ Video #5: educational | neutral sentiment | educational_channel
 
 ## COMPARISON TABLE FOR DISCUSSION
 
-| Metric | Journey 1 ("depression help") | Journey 3 ("anxiety coping") | Difference |
-|--------|-------------------------------|------------------------------|------------|
+| Metric | Journey 1 ("mental health") | Journey 3 ("therapy for teens") | Difference |
+|--------|----------------------------|----------------------------------|------------|
 | Harmful Content (%) | 22.2 | 0.0 | +22.2 pp |
 | Professional Content (%) | 2.2 | 96.7 | -94.4 pp |
 | No Resources (%) | 90.0 | 0.0 | +90.0 pp |
@@ -234,7 +234,7 @@ Video #5: educational | neutral sentiment | educational_channel
 
 Based on these qualitative findings, the Discussion should address:
 
-1. **The Help-Seeking Paradox:** Why "depression help" surfaces harmful peer content while "anxiety coping" surfaces professional resources
+1. **The Help-Seeking Paradox:** Why "mental health" surfaces harmful peer content while "therapy for teens" surfaces professional resources (though parent-focused)
 
 2. **Resource Desert:** The alarming absence of crisis resources even in videos addressing suicidal ideation
 
@@ -251,13 +251,13 @@ Based on these qualitative findings, the Discussion should address:
 
 ---
 
-## SUGGESTED PAPER FINDINGS
+## SUGGESTED PAPER QUOTES
 
+Use these data points in your Discussion:
 
+> "Analysis of 90 videos from Journey 1 revealed that 22.2% contained potentially harmful content, while 90.0% provided no mental health resources—despite the journey beginning with an explicit help-seeking query ('mental health')."
 
-> "Analysis of 90 videos from Journey 1 revealed that 22.2% contained potentially harmful content, while 90.0% provided no mental health resources—despite the journey beginning with an explicit help-seeking query ('depression help')."
-
-> "In stark contrast, Journey 3 ('anxiety coping strategies') yielded 96.7% professional content with zero harmful videos, demonstrating that the algorithmic pathway depends critically on query framing rather than topic alone."
+> "In stark contrast, Journey 3 ('therapy for teens') yielded 96.7% professional content with zero harmful videos, demonstrating that the algorithmic pathway depends critically on query framing rather than topic alone."
 
 > "The resource gap is particularly concerning: among videos addressing depression, suicidal ideation, and self-harm, 90.0% offered no crisis hotlines, professional referrals, or guidance—leaving vulnerable viewers in a 'resource desert.'"
 

@@ -78,7 +78,7 @@ creator_pct.plot(kind='area', stacked=True, ax=ax, alpha=0.8,
 
 ax.set_xlabel('Video Position in Journey 1', fontsize=12, fontweight='bold')
 ax.set_ylabel('Content Distribution (%)', fontsize=12, fontweight='bold')
-ax.set_title('Journey 1: Creator Type Evolution Over 90 Videos\n"depression help" query', 
+ax.set_title('Journey 1: Creator Type Evolution Over 90 Videos\n"mental health" query', 
             fontsize=14, fontweight='bold', pad=20)
 ax.legend(title='Creator Type', loc='center left', bbox_to_anchor=(1, 0.5), fontsize=10)
 ax.set_ylim(0, 100)
@@ -106,13 +106,14 @@ fig, axes = plt.subplots(2, 3, figsize=(18, 10))
 fig.suptitle('Sentiment and Resource Quality Across Journeys', 
             fontsize=16, fontweight='bold', y=0.98)
 
+# Journey info - CORRECTED TO MATCH ACTUAL STUDY
 journey_info = {
-    1: 'depression help',
-    2: 'i hate my life',
-    3: 'anxiety coping',
-    4: 'why am i depressed',
-    5: 'random start',
-    6: 'teen mental health'
+    1: 'mental health',
+    2: 'feeling depressed',
+    3: 'therapy for teens',
+    4: 'anxiety relief',
+    5: 'teen depression',
+    6: 'mental wellness'
 }
 
 for idx, journey_num in enumerate(range(1, 7)):
