@@ -135,10 +135,10 @@ Search: "teen depression" (specific mental health condition)
 
 ---
 
-## Journey 6: "mental wellness" (30 videos)
+## Journey 6: "mental wellness" (21 videos)
 
 **Date**: January 25, 2026
-**Videos Watched**: 30
+**Videos Watched**: 21
 **Starting search**: "mental wellness"
 
 **Content Progression**:
@@ -161,7 +161,7 @@ Search: "teen depression" (specific mental health condition)
 
 **Professional Resources**:
 - Mix of licensed professionals and wellness influencers
-- Approximately 20% professional content
+- Approximately 9.5% professional content (2 of 21 videos)
 
 **Content Quality**:
 - Helpful for someone seeking wellness
@@ -240,7 +240,7 @@ To validate findings from algorithmic walkthrough journeys, I collected 525 addi
 
 **Quantitative definition**: Channels appearing in 5+ search terms with 10+ videos total
 
-**8 channels identified**:
+**10 channels identified**:
 1. TEDx Talks (40 videos)
 2. Psych2Go (34 videos)
 3. Therapy in a Nutshell (31 videos)
@@ -263,12 +263,12 @@ To validate findings from algorithmic walkthrough journeys, I collected 525 addi
 - Peer/Other content: 75.6% (397 videos)
 
 **Journey experience**:
-- Journey 1: ~1% professional (1 in 90 videos)
-- Journey 2: ~5% professional after initial video
-- Journey 3: ~97% professional (but wrong audience)
+- Journey 1: 2.2% professional (2 in 90 videos)
+- Journey 2: 15.0% professional (3 in 20 videos)
+- Journey 3: 96.7% professional (but wrong audience)
 - Journey 4: 100% professional (but single source)
 - Journey 5: 100% professional (but topic drift)
-- Journey 6: ~20% professional
+- Journey 6: 9.5% professional (2 in 21 videos)
 
 **Gap**: Professional content exists at 24.4% of corpus but appears at <10% in most user journeys (Journeys 1, 2, 6), confirming algorithmic suppression.
 
@@ -312,7 +312,7 @@ To validate findings from algorithmic walkthrough journeys, I collected 525 addi
 **Framework**: Platform failure has TWO dimensions:
 
 1. **Curation problem** (algorithmic): Doesn't surface professional content proportional to availability
-   - Example: "Mental health" has 14% professional content available, but Journey 1 encountered only ~1%
+   - Example: "Mental health" has 14% professional content available, but Journey 1 encountered only 2.2%
    - Example: "Depression help" has 56% professional content, yet journeys rarely feature this proportion
    - Professional content suppressed despite 32.5% higher engagement
 
