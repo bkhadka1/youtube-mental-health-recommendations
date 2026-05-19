@@ -125,8 +125,7 @@ pip install -r requirements.txt
 If you use this work, please cite:
 
 ```
-Khadka, B. (2026). Algorithmic Pathways to Mental Health Content: How YouTube's
-Recommendation System Shapes Adolescent Exposure Patterns. [Manuscript in preparation].
+Khadka, B. (2026). Algorithmic Pathways to Mental Health Content: How YouTube's Recommendation System Shapes Adolescent Exposure Patterns. Zenodo. https://doi.org/10.5281/zenodo.20278934
 ```
 
 ## License
