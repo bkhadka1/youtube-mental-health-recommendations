@@ -1,7 +1,7 @@
 # Algorithmic Pathways to Mental Health Content: How YouTube's Recommendation System Shapes Adolescent Exposure Patterns
 
 **Author:** Bikash Khadka  
-**Status:** Paper in preparation (2026)  
+**Status:** Preprint: https://doi.org/10.5281/zenodo.20278934  
 **Contact:** bcash2233@gmail.com
 
 ## Overview
