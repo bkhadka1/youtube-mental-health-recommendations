@@ -1,12 +1,16 @@
 # Algorithmic Pathways to Mental Health Content: How YouTube's Recommendation System Shapes Adolescent Exposure Patterns
 
 **Author:** Bikash Khadka  
-**Status:** Preprint: https://doi.org/10.5281/zenodo.20278934  
+**Status:** Preprint — https://doi.org/10.5281/zenodo.20278934  
 **Contact:** bcash2233@gmail.com
+
+---
 
 ## Overview
 
 This project investigates how YouTube's recommendation algorithm shapes what adolescents encounter when searching for mental health content. Using a mixed-methods approach combining algorithmic walkthroughs (qualitative) with YouTube Data API analysis (quantitative), we identify systematic patterns in how the platform routes users toward or away from professional mental health resources.
+
+---
 
 ## Key Findings
 
@@ -15,13 +19,17 @@ This project investigates how YouTube's recommendation algorithm shapes what ado
 - **Teen Content Gap:** Teen-specific mental health searches yield the lowest professional content availability (8%), lowest engagement rates, and lowest view counts of any category tested.
 - **Algorithmic Escalation:** Negative search framing combined with random channel entry produces progressive content darkening — from general advice to crisis content over 90 videos — with minimal professional intervention.
 
+---
+
 ## Data
 
 - **Algorithmic Walkthroughs:** 6 journeys, 200+ manually coded videos across different search queries
 - **API Dataset:** 525 videos collected via YouTube Data API v3 across 12 mental health search terms
 - **Analysis Period:** January 2026
 
-*Note: Raw video data and manual coding sheets are not included in this repository to respect content creator privacy. Processed summary statistics and analysis outputs are provided.*
+> **Note:** Raw video data and manual coding sheets are not included in this repository to respect content creator privacy. Processed summary statistics and analysis outputs are provided.
+
+---
 
 ## Repository Structure
 
@@ -35,11 +43,12 @@ youtube-mental-health-recommendations/
 │   │   ├── collect_youtube_data.py          # YouTube API data collection pipeline
 │   │   └── test_youtube_api.py              # API connection test
 │   ├── analysis/
-│   │   ├── identify_ecosystem.py            # Established channel ecosystem identification
-│   │   ├── analyze_by_search_term.py        # Search term comparison analysis
-│   │   ├── analyze_professional_vs_peer.py  # Professional vs peer content analysis
-│   │   ├── classify_by_title.py             # Keyword-based content classification
-│   │   └── explore_data.py                  # Exploratory data analysis
+│   │   ├── identify_ecosystem.py              # Established channel ecosystem identification
+│   │   ├── analyze_by_search_term.py          # Search term comparison analysis
+│   │   ├── analyze_professional_vs_peer.py    # Professional vs peer content analysis
+│   │   ├── classify_by_title.py               # Keyword-based content classification
+│   │   ├── explore_data.py                    # Exploratory data analysis
+│   │   └── bert_sentiment_analysis.py         # DistilBERT baseline (not used in paper — see note below)
 │   └── paper/
 │       ├── 01_journey_trajectory_analysis.py  # Journey progression figures
 │       ├── 02_content_creator_analysis.py     # Creator pattern analysis
@@ -73,6 +82,8 @@ youtube-mental-health-recommendations/
     └── api_data_summary.md
 ```
 
+---
+
 ## Methods
 
 ### Phase 1: Algorithmic Walkthroughs
@@ -92,13 +103,19 @@ Six systematic journeys through YouTube's recommendation system, each starting f
 
 525 videos collected via YouTube Data API v3 across 12 search terms to validate qualitative findings at scale. Analysis focused on channel ecosystem mapping, professional vs. peer content distribution, and engagement metrics.
 
+---
+
 ## Tools & Technologies
 
-- **Python** (pandas, matplotlib, seaborn, NumPy)
-- **YouTube Data API v3** (data collection)
-- **NLP:** BERT-based sentiment classification via Hugging Face Transformers
-- **Network Analysis:** NetworkX for recommendation pathway mapping
-- **Data Collection:** Selenium, BeautifulSoup
+- **Python** — pandas, matplotlib, seaborn, NumPy
+- **YouTube Data API v3** — data collection and video metadata retrieval
+- **Content Classification** — keyword-based title/description classification (see `classify_by_title.py`)
+- **Manual Coding** — structured coding scheme applied across all 6 journeys
+
+> **Note on transformer-based classification (`bert_sentiment_analysis.py`):**
+> A DistilBERT zero-shot sentiment pipeline (SST-2 weights) was evaluated as a potential classifier for the "potentially harmful" coding dimension. It was not used in the paper's analysis. The model conflates *topic negativity* with *sentiment negativity* — titles like "Signs Your Teen Needs Therapy" were flagged as negative because they contain clinical language, while genuinely harmful peer-confessional titles were sometimes rated positive due to hopeful framing ("Overcoming..."). The SST-2 training corpus (movie reviews) is too distant from mental health discourse for zero-shot inference to be reliable here. The script is retained in the repository as a documented baseline and starting point for future fine-tuning on the manual coding labels. See `bert_sentiment_analysis.py` for the full failure analysis and a proposed fine-tuning roadmap.
+
+---
 
 ## Setup
 
@@ -114,19 +131,23 @@ pip install -r requirements.txt
 # Add your API key to config/config.py (not tracked by git)
 ```
 
+---
+
 ## Target Venues
 
 - ICWSM 2027 (International Conference on Web and Social Media)
-- CHI 2027 (ACM Conference on Human Factors in Computing)
-- FAccT 2027 (Fairness, Accountability, and Transparency)
+- CHI 2027 (ACM Conference on Human Factors in Computing Systems)
+- FAccT 2027 (ACM Conference on Fairness, Accountability, and Transparency)
+
+---
 
 ## Citation
 
 If you use this work, please cite:
 
-```
-Khadka, B. (2026). Algorithmic Pathways to Mental Health Content: How YouTube's Recommendation System Shapes Adolescent Exposure Patterns. Zenodo. https://doi.org/10.5281/zenodo.20278934
-```
+> Khadka, B. (2026). *Algorithmic Pathways to Mental Health Content: How YouTube's Recommendation System Shapes Adolescent Exposure Patterns.* Zenodo. https://doi.org/10.5281/zenodo.20278934
+
+---
 
 ## License
 
