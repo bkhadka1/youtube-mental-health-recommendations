@@ -1,16 +1,26 @@
+# Core data analysis
 pandas>=1.5.0
-matplotlib>=3.6.0
-seaborn>=0.12.0
 numpy>=1.23.0
-google-api-python-client>=2.0.0
-transformers>=4.20.0
-torch>=1.12.0
-networkx>=2.8.0
-beautifulsoup4>=4.11.0
-selenium>=4.5.0
 scikit-learn>=1.1.0
 
+# Visualisation
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# YouTube Data API
+google-api-python-client>=2.0.0
+
+# Transformer-based NLP (bert_sentiment_analysis.py)
 transformers>=4.30.0
 torch>=2.0.0
 datasets>=2.12.0
+
+# Notebook conversion (optional)
 jupytext>=1.14.0
+
+# Network analysis
+networkx>=2.8.0
+
+# Reserved for future extensions
+# beautifulsoup4>=4.11.0  # web scraping pipeline (not yet implemented)
+# selenium>=4.5.0         # browser automation (not yet implemented)
