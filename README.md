@@ -40,20 +40,21 @@ youtube-mental-health-recommendations/
 ├── requirements.txt
 ├── code/
 │   ├── collection/
-│   │   ├── collect_youtube_data.py          # YouTube API data collection pipeline
-│   │   └── test_youtube_api.py              # API connection test
+│   │   ├── collect_youtube_data.py
+│   │   └── test_youtube_api.py
 │   ├── analysis/
-│   │   ├── identify_ecosystem.py              # Established channel ecosystem identification
-│   │   ├── analyze_by_search_term.py          # Search term comparison analysis
-│   │   ├── analyze_professional_vs_peer.py    # Professional vs peer content analysis
-│   │   ├── classify_by_title.py               # Keyword-based content classification
-│   │   ├── explore_data.py                    # Exploratory data analysis
-│   │   └── bert_sentiment_analysis.py         # DistilBERT baseline (not used in paper — see note below)
+│   │   ├── identify_ecosystem.py
+│   │   ├── analyze_by_search_term.py
+│   │   ├── analyze_professional_vs_peer.py
+│   │   ├── classify_by_title.py
+│   │   ├── explore_data.py
+│   │   ├── network_analysis.py
+│   │   └── bert_sentiment_analysis.py
 │   └── paper/
-│       ├── 01_journey_trajectory_analysis.py  # Journey progression figures
-│       ├── 02_content_creator_analysis.py     # Creator pattern analysis
-│       ├── 03_qualitative_examples.py         # Discussion section examples
-│       └── 04_paper_statistics.py             # Methods & Results statistics
+│       ├── 01_journey_trajectory_analysis.py
+│       ├── 02_content_creator_analysis.py
+│       ├── 03_qualitative_examples.py
+│       └── 04_paper_statistics.py
 ├── data/
 │   └── processed/
 │       ├── established_ecosystem.json
@@ -68,7 +69,9 @@ youtube-mental-health-recommendations/
 │   ├── fig6_sentiment_resource_matrix.png
 │   ├── fig7_target_audience.png
 │   ├── professional_vs_peer.png
-│   └── search_term_analysis.png
+│   ├── search_term_analysis.png
+│   ├── bert_sentiment_results.png
+│   └── network_analysis_results.png
 ├── paper/
 │   ├── drafts/
 │   │   └── bikash_khadka_research_draft.pdf
